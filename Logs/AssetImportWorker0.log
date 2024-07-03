@@ -1,0 +1,786 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7955 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/MyProject/ProjectGame2D/Project 4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50275
+Successfully changed project path to: E:/MyProject/ProjectGame2D/Project 4
+E:/MyProject/ProjectGame2D/Project 4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29288] Host "[IP] 26.52.224.103 [Port] 0 [Flags] 2 [Guid] 3701283216 [EditorId] 3701283216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7U1KHN9H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29288] Host "[IP] 26.52.224.103 [Port] 0 [Flags] 2 [Guid] 3701283216 [EditorId] 3701283216 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7U1KHN9H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 86.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/MyProject/ProjectGame2D/Project 4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3991 MB
+    Driver:   27.21.14.6262
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003620 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.548 seconds
+Domain Reload Profiling:
+	ReloadAssembly (549ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\MyProject\ProjectGame2D\Project 4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\MyProject\ProjectGame2D\Project 4\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1155ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (946ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (472ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (56.1 KB). Loaded Objects now: 4513.
+Memory consumption went from 150.9 MB to 150.9 MB.
+Total: 7.242500 ms (FindLiveObjects: 0.735200 ms CreateObjectMapping: 0.420400 ms MarkObjects: 5.954000 ms  DeleteObjects: 0.130700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 288271.447125 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_01.png
+  artifactKey: Guid(9906f4438af21a94481d6c5d010f95e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_01.png using Guid(9906f4438af21a94481d6c5d010f95e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f4e13d0f6349af6911ab3bd59474679') in 0.175714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlayerAnimation.cs
+  artifactKey: Guid(b4035cc3a1d0bbf47a34a3b395942b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/PlayerAnimation.cs using Guid(b4035cc3a1d0bbf47a34a3b395942b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3da1b65714a534667b4fa6e410727235') in 0.028456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_02.png
+  artifactKey: Guid(bb093bc911130a6419e8df15c55e2e97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_02.png using Guid(bb093bc911130a6419e8df15c55e2e97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59b64f773f3ab9779f0cc352c19e3d0b') in 0.030687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_Idle.png
+  artifactKey: Guid(096e9065ca5743849aabb9031be70de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_Idle.png using Guid(096e9065ca5743849aabb9031be70de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4db68518c2262f6b788d09e968dcbbd') in 0.027247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Destroyed.png
+  artifactKey: Guid(20c412a095bb47549aa134d13fb4d3f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Gold Mine/GoldMine_Destroyed.png using Guid(20c412a095bb47549aa134d13fb4d3f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd58d00a4668ad8a462e89d04c4986308') in 0.029624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/05.png
+  artifactKey: Guid(3d169bcbdf3b5a1479adb258a1872434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/05.png using Guid(3d169bcbdf3b5a1479adb258a1872434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9aa23e8a33342aed8b7737ecba804556') in 0.030093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_Data/_Character/_Warrior_Blue/Warrior_Blue.prefab
+  artifactKey: Guid(6a7835cfd8850cc4ea7a945277c15272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Warrior_Blue/Warrior_Blue.prefab using Guid(6a7835cfd8850cc4ea7a945277c15272) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '079203f0d23fcbcff9ef7a64b60c2dd0') in 0.064701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Disable.png
+  artifactKey: Guid(71d01ed70cdede64b9b2ccd02a5f2ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Disable.png using Guid(71d01ed70cdede64b9b2ccd02a5f2ddf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13cdcf153f0f53a199a03a16a9fd3bf0') in 0.036188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png
+  artifactKey: Guid(e00c1c5bbca72f946974ac1e63871139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Sheep/HappySheep_All.png using Guid(e00c1c5bbca72f946974ac1e63871139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2743e54215c697e5618e12d277259167') in 0.037120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides.png
+  artifactKey: Guid(da8e23be143012f4aad53200cbf5978e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_3Slides.png using Guid(da8e23be143012f4aad53200cbf5978e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39f7946a9e53206fcbf294c044d2af4c') in 0.043693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_3Slides.png
+  artifactKey: Guid(56e9331a3626f9349ba0f0324fa4cf95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Hover_3Slides.png using Guid(56e9331a3626f9349ba0f0324fa4cf95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1a7339e2f45c5a037c5836e998370b8') in 0.040307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/17.png
+  artifactKey: Guid(f5c45d77f00550d4991e47da6f198ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/17.png using Guid(f5c45d77f00550d4991e47da6f198ecb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a578f1eadd0724587692c335eed35520') in 0.043479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides.png
+  artifactKey: Guid(64053101aeb787b42bdb1228342e21ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Blue_9Slides.png using Guid(64053101aeb787b42bdb1228342e21ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5570f9f2360aa365dfb69786beeb7c57') in 0.039377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Pressed_09.png
+  artifactKey: Guid(58e7d79248da8e341b48861702de2ac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Pressed_09.png using Guid(58e7d79248da8e341b48861702de2ac2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74085e2cbd4da6f788cab22e4099b580') in 0.039404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_08.png
+  artifactKey: Guid(0f2e1eb813386424c9a2d8e116fda750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_08.png using Guid(0f2e1eb813386424c9a2d8e116fda750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82a5f7fec00d8d635e7445a0fc5de619') in 0.041472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Disable_3Slides.png
+  artifactKey: Guid(1d4e4c4b0f7dfdf49b40a2782fbbf021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Disable_3Slides.png using Guid(1d4e4c4b0f7dfdf49b40a2782fbbf021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b0eec99565e62215fe4ee002969abb') in 0.035809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/05.png
+  artifactKey: Guid(4689f0d0f0ea0cc448144bc4a4dc9245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/05.png using Guid(4689f0d0f0ea0cc448144bc4a4dc9245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86b25a82ae9622a6d5d37b2b350c252a') in 0.038905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/02.png
+  artifactKey: Guid(417f902063226944dbcab503132d2317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/02.png using Guid(417f902063226944dbcab503132d2317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e7534905db874d368b4b0da2a6dba2a') in 0.032198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Left.png
+  artifactKey: Guid(6bdcdf633dee68e4c96dfbad7a2e8bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Red_Connection_Left.png using Guid(6bdcdf633dee68e4c96dfbad7a2e8bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8eb79f11d273957758405a7bce4f0ec') in 0.038360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down.png
+  artifactKey: Guid(b81a7c7c390dea143a093a7444fc939c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down.png using Guid(b81a7c7c390dea143a093a7444fc939c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6d562c18302638a41956c97b79d4933') in 0.058892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png
+  artifactKey: Guid(03e722f1c1335114ea7758733e248fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Down_Pressed.png using Guid(03e722f1c1335114ea7758733e248fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b443e906b5df06719599241db9d6679') in 0.035738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Left.png
+  artifactKey: Guid(47c5b0b9ab0204f4f85f45269c4f60e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Left.png using Guid(47c5b0b9ab0204f4f85f45269c4f60e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c192ff0d8a876ef27951ae84fe48a410') in 0.038194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/15.png
+  artifactKey: Guid(cafc150a90f7bdc44a49b3a79f0352a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/15.png using Guid(cafc150a90f7bdc44a49b3a79f0352a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb500d418aeacc1c06947111c369ea0d') in 0.037283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_Pressed.png
+  artifactKey: Guid(29102ad344a07b04f906f5545932669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red_Pressed.png using Guid(29102ad344a07b04f906f5545932669b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7736ce7447b301c4e54b01d0a8b1b525') in 0.039413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/18.png
+  artifactKey: Guid(660535f8af7935e4aa70209e4f8ea049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/18.png using Guid(660535f8af7935e4aa70209e4f8ea049) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8c2731bded8f706cbcb47dd836cba89') in 0.034896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Data/_Character/_Archer_Blue/Archer_Blue_(NoArms).png
+  artifactKey: Guid(7101f882dec98334e90b49beed319d47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Archer_Blue/Archer_Blue_(NoArms).png using Guid(7101f882dec98334e90b49beed319d47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49c575de3b80f7d00d037afa4a1a9cb7') in 0.038335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Data/_Character/_Warrior_Blue/_Animation/Slash_back_down.anim
+  artifactKey: Guid(78418bc2c609e064bb401c714f95fcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Warrior_Blue/_Animation/Slash_back_down.anim using Guid(78418bc2c609e064bb401c714f95fcee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb92721540c9a36a367a6d6aeeb5d52c') in 0.030929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Data/_Character/_Goblin_Torch_Blue/_Animation/Attack_back.anim
+  artifactKey: Guid(1718d32ffeab5074b9fa68236aa6f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Goblin_Torch_Blue/_Animation/Attack_back.anim using Guid(1718d32ffeab5074b9fa68236aa6f4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef7cdb28a6bd04421be55d4eceedcd1b') in 0.017024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Data/_Character/_Goblin_TNT_Blue/_Animation/Move.anim
+  artifactKey: Guid(1de059264aba35f489f4e4b595b2f5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Goblin_TNT_Blue/_Animation/Move.anim using Guid(1de059264aba35f489f4e4b595b2f5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dce2a367e24f55e81875c43e55b88671') in 0.020877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/_Data/_Character/_Archer_Blue/_Animation/Attack_up.anim
+  artifactKey: Guid(4b83a67853850ae41934f5ac6176e41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Archer_Blue/_Animation/Attack_up.anim using Guid(4b83a67853850ae41934f5ac6176e41a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e6f46df23292621ab305808a25617e5') in 0.021627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png
+  artifactKey: Guid(4d8b281f52777604e8c9833f863a622e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Yellow_Connection_Right_Pressed.png using Guid(4d8b281f52777604e8c9833f863a622e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ceb85a46c054cfafc39a1e6a83edd49') in 0.037136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Data/_Character/_Goblin_TNT_Blue/_Animation/Idle.anim
+  artifactKey: Guid(740a0fded47bdeb47acc062a4843a412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Goblin_TNT_Blue/_Animation/Idle.anim using Guid(740a0fded47bdeb47acc062a4843a412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5d880f09eee6e7611f3da0d8813135f') in 0.016454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Data/_Character/_Warrior_Blue/_Animation/Slash_side_up.anim
+  artifactKey: Guid(eb29e9fb7e5947d449eb5ff244266fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Warrior_Blue/_Animation/Slash_side_up.anim using Guid(eb29e9fb7e5947d449eb5ff244266fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6dc388c5496f2090d94a56e9e542dd7') in 0.016022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Data/_Character/_Archer_Blue/_Animation/Archer_Blue_0.controller
+  artifactKey: Guid(5e347cb2f948f3a468a0280abb043749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Archer_Blue/_Animation/Archer_Blue_0.controller using Guid(5e347cb2f948f3a468a0280abb043749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26cbc127d718b60b016091cd36e2a45d') in 0.020755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Data/_Worlds/Sprites/Water/Water.png
+  artifactKey: Guid(64689f6b7a98c724988da0698e1cbb39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/Sprites/Water/Water.png using Guid(64689f6b7a98c724988da0698e1cbb39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cf40f3fd13d1c8270eb739f580d527e') in 0.034311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png
+  artifactKey: Guid(eee00f21b512de84494df5f2f6f3d303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Carved_Regular.png using Guid(eee00f21b512de84494df5f2f6f3d303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6329acc91405947ac8f5e5c4a250c88') in 0.036844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Regular_01.png
+  artifactKey: Guid(74a1ddabcfbcbbb4088f3ad6b5d3cec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Regular_01.png using Guid(74a1ddabcfbcbbb4088f3ad6b5d3cec3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21349b9e3cada094ec16eae03b525e2b') in 0.053290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red.png
+  artifactKey: Guid(0ff065ad8980e74429597d20a306d33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Buttons/Button_Red.png using Guid(0ff065ad8980e74429597d20a306d33a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d38db9df8aaae328f389606cc06ce43') in 0.038642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Up.png
+  artifactKey: Guid(81545b3f12dd697449258fd903ea54c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Ribbons/Ribbon_Blue_Connection_Up.png using Guid(81545b3f12dd697449258fd903ea54c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2ff520aa546be8249e55715217a8576') in 0.032899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_4.asset
+  artifactKey: Guid(4636cc852860dda4890d856b5c50c893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_4.asset using Guid(4636cc852860dda4890d856b5c50c893) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3f55ee277d0409d7f73e60a1fccf401') in 0.037959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_13.asset
+  artifactKey: Guid(df43806b9b4bee84a9bac87e8d4a50f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_13.asset using Guid(df43806b9b4bee84a9bac87e8d4a50f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f85f4321af92b7aadeac0bd5f2be1b8b') in 0.017417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_26.asset
+  artifactKey: Guid(defb8b4edaec2e8498df31daa7d88228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_26.asset using Guid(defb8b4edaec2e8498df31daa7d88228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0dd294018ebc4de3b2c245fae2da6c4') in 0.025684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_10.asset
+  artifactKey: Guid(94ba10e120284ab429ef810b78f05d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_10.asset using Guid(94ba10e120284ab429ef810b78f05d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23c9881676f52d0a6291d152d29e9ce1') in 0.021542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_3.asset
+  artifactKey: Guid(da9c739331ebebb40b18b31e2fa4144f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_3.asset using Guid(da9c739331ebebb40b18b31e2fa4144f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b0e6e16d0b2eeecd2de220afda0ca9d') in 0.026728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_12.asset
+  artifactKey: Guid(202d7b730ebc27348b8b24686a8048ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_12.asset using Guid(202d7b730ebc27348b8b24686a8048ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a9affe57abfa753b4b731b322515175') in 0.027768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_19.asset
+  artifactKey: Guid(090c9fc583a8fe64381128e64365641c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_19.asset using Guid(090c9fc583a8fe64381128e64365641c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51a271128ae8f3c42ac06f1fd617a340') in 0.029842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_15.asset
+  artifactKey: Guid(ae6c927105175b64e81e8fd82859914c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_15.asset using Guid(ae6c927105175b64e81e8fd82859914c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d6128dc281500fd1ced977115bf1999') in 0.026496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Bridge_All_6.asset
+  artifactKey: Guid(0b7d14c518e488e40a59731f872f5bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Bridge_All_6.asset using Guid(0b7d14c518e488e40a59731f872f5bdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08f724c561bd8781acc2e9f4772ea9d1') in 0.023483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Bridge_All_9.asset
+  artifactKey: Guid(2853a1dfd5041404b96f7f861d36b479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Bridge_All_9.asset using Guid(2853a1dfd5041404b96f7f861d36b479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db2270803c430cfd2dbd32033bcfdae7') in 0.024169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_14.asset
+  artifactKey: Guid(998d256cb55833a49850593ff1bd0473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_14.asset using Guid(998d256cb55833a49850593ff1bd0473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed18d8a9810be4efceffaea4272a83ae') in 0.021269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Data/_Character/_Archer_Blue/_Animation/Idle.anim
+  artifactKey: Guid(a53d453c2b78ba64ba140e4a06cb2ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Archer_Blue/_Animation/Idle.anim using Guid(a53d453c2b78ba64ba140e4a06cb2ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61c7d044df3e5d135c4c38bc5b68a5fb') in 0.021656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png
+  artifactKey: Guid(0a803d13c1762e1418a2d290563f4436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Resources/Resources/M_Idle_(NoShadow).png using Guid(0a803d13c1762e1418a2d290563f4436) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a988074d17d7b0bc07123c84df94834a') in 0.037166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Data/_Character/_Goblin_Torch_Blue/Torch_Blue.png
+  artifactKey: Guid(c8766ad8413de72419f8c9c359245612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Character/_Goblin_Torch_Blue/Torch_Blue.png using Guid(c8766ad8413de72419f8c9c359245612) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73672208de5b2316bbd7f71f6173bf7b') in 0.130150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Construction.png
+  artifactKey: Guid(cbd3e07058444b046bba17478a194ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Construction.png using Guid(cbd3e07058444b046bba17478a194ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad9fbe041d92cde1f095a6fb45b88eb3') in 0.035002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Water.asset
+  artifactKey: Guid(3f2055e369f1d224a8f1b2bcf9f5f5a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Water.asset using Guid(3f2055e369f1d224a8f1b2bcf9f5f5a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77f84e00a0cb45f025ef6b9ee79d67e9') in 0.015777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png
+  artifactKey: Guid(c6968d710db6a4247b6d3f4d0622910d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Red.png using Guid(c6968d710db6a4247b6d3f4d0622910d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c5255edf99be85910f11e7f0d93209e') in 0.043691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Data/_Worlds/Sprites/Water/Rocks/Rocks_04.png
+  artifactKey: Guid(dfbc336959cf81d49b80d0391b9bf8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/Sprites/Water/Rocks/Rocks_04.png using Guid(dfbc336959cf81d49b80d0391b9bf8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06719a0eaa6e189a940108f6ee53fe65') in 0.041363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Destroyed.png
+  artifactKey: Guid(cbce36adcf69afb428a2baaf00a09b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/House/House_Destroyed.png using Guid(cbce36adcf69afb428a2baaf00a09b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54b4cc7b0ea36bc9d227baa37d9f7ab8') in 0.044871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.aseprite
+  artifactKey: Guid(7db4d668e6f5e6b4d97ac090265d71b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Buildings/Wood_Tower/Wood_Tower_Yellow.aseprite using Guid(7db4d668e6f5e6b4d97ac090265d71b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c438c504a39319662783976a58835fb') in 0.017692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_3.asset
+  artifactKey: Guid(b1957c15055dae045a432f56ddf23e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_3.asset using Guid(b1957c15055dae045a432f56ddf23e1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '059310375958e09c45a0f47c4b789c25') in 0.021057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_Data/_Worlds/Sprites/Water/Rocks/Rocks_02.png
+  artifactKey: Guid(3018a6d1a89704f4fafa801ba5ebbec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/Sprites/Water/Rocks/Rocks_02.png using Guid(3018a6d1a89704f4fafa801ba5ebbec1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '440c360d2f272b4cca6d29cf1e05fa8d') in 0.044127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png
+  artifactKey: Guid(97cdd40a3f13d4c44a65ef03e37d219c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Castle/Castle_Blue.png using Guid(97cdd40a3f13d4c44a65ef03e37d219c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '829d9051c6e4460e1e08454e7ec8f13f') in 0.035999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/Dead.png
+  artifactKey: Guid(0e1bc1236a44c754b95a633bfa72a40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Dead/Dead.png using Guid(0e1bc1236a44c754b95a633bfa72a40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85c48259554e071fddde0e360e20e8ac') in 0.037218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Red.png
+  artifactKey: Guid(75ccd754b4b1150468a67584c7fbb632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Red.png using Guid(75ccd754b4b1150468a67584c7fbb632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4c82de7c8d8bf4b322ea1a5eb47970f') in 0.037465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png
+  artifactKey: Guid(11b80599bd154b74eb321990b9e91737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Arrow/Arrow.png using Guid(11b80599bd154b74eb321990b9e91737) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd32bfacbec1a3651e48b31e66fd371eb') in 0.026222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/Archer_Red.png
+  artifactKey: Guid(37ec2b76a22528c478ed4134de339115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Red/Archer_Red.png using Guid(37ec2b76a22528c478ed4134de339115) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e681fb2d67e99c698b8e0697200255d') in 0.045416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png
+  artifactKey: Guid(b806c949259d03340b2d6ce221b51cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Archer + Bow/Archer_Bow_Purple.png using Guid(b806c949259d03340b2d6ce221b51cc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3c0b7d5d739dab41d2321e2f34f5b3e') in 0.037495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png
+  artifactKey: Guid(02ae71e8c4607fe4ca80332f618058b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Barrel/Blue/Barrel_Blue.png using Guid(02ae71e8c4607fe4ca80332f618058b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '983077ae2afc0c5f277d833148834e33') in 0.034885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.png
+  artifactKey: Guid(07f7010a55889b94b84bb0d4b12bca51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.png using Guid(07f7010a55889b94b84bb0d4b12bca51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e23d456f5f20cbb9faced138ec8ce6a') in 0.041043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.png
+  artifactKey: Guid(5be6a41595f44f34bb38eb4b6df4a636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/TNT/Red/TNT_Red.png using Guid(5be6a41595f44f34bb38eb4b6df4a636) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a2cc2d085ea0094b4664f80566889dd') in 0.038116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png
+  artifactKey: Guid(e52c520ab67601547b6707a48de348bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Purple/Torch_Purple.png using Guid(e52c520ab67601547b6707a48de348bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec2862b7cfe9d200438fcbc42ad8d006') in 0.045125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Yellow.png
+  artifactKey: Guid(325b973afec64454ba6677265a7fdd65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Buildings/Tower/Tower_Yellow.png using Guid(325b973afec64454ba6677265a7fdd65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12a069bdc55fbf1729198a4c2fafd1b2') in 0.042207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.aseprite
+  artifactKey: Guid(cef73660b6aeaa54fbc14238333fe6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Archer/Yellow/Archer_Yellow.aseprite using Guid(cef73660b6aeaa54fbc14238333fe6d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bb1bcbfc99e71371a1bb91b9009cdd8') in 0.016814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_27.asset
+  artifactKey: Guid(2b5877c4a1c1a4e4b92a995c92134cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Flat_27.asset using Guid(2b5877c4a1c1a4e4b92a995c92134cda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b05e33e7966afae8c6ecc8dc2670be29') in 0.021926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_12.asset
+  artifactKey: Guid(e1b4fa25a30a16e4c993b09061e44074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_12.asset using Guid(e1b4fa25a30a16e4c993b09061e44074) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0e1020593a15a5fb9d69072e74ec288') in 0.026934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png
+  artifactKey: Guid(33725f16cabdf7246abdf74b4d281bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Yellow/Warrior_Yellow.png using Guid(33725f16cabdf7246abdf74b4d281bd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee196a0cf720d57c9956c7c406646a48') in 0.042096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png
+  artifactKey: Guid(86290a57df699f241870b6cfa776d232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Pawn/Red/Pawn_Red.png using Guid(86290a57df699f241870b6cfa776d232) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7e8a7db35644e364552872dd3b468b1') in 0.039851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.aseprite
+  artifactKey: Guid(0068f6dfff72aa24e912ae28924aa7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Goblins/Troops/Torch/Yellow/Torch_Yellow.aseprite using Guid(0068f6dfff72aa24e912ae28924aa7d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a7c462b5db390c536743ebaa1a2c83c') in 0.015045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/06.png
+  artifactKey: Guid(5cefd5240fe7d084eb82bcccc25253b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Deco/06.png using Guid(5cefd5240fe7d084eb82bcccc25253b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88f9f617970a2584baa306c31503e29c') in 0.035848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Right.png
+  artifactKey: Guid(7ddb1fb89227c6948993762ce1636fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Banners/Banner_Connection_Right.png using Guid(7ddb1fb89227c6948993762ce1636fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '983088d489e62f6a0d2b8f720bdd0780') in 0.043890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Regular_05.png
+  artifactKey: Guid(4f9acdd634e3ca649ac6c9f49335791d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Regular_05.png using Guid(4f9acdd634e3ca649ac6c9f49335791d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e158170d4bb9f4d0fdde14c9eee74970') in 0.034141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/06.png
+  artifactKey: Guid(538d0fdadb9cf8c4d9762f24841d3415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Pointers/06.png using Guid(538d0fdadb9cf8c4d9762f24841d3415) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2f23abf599ce56b504aeb7981390fb9') in 0.034847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Pressed_06.png
+  artifactKey: Guid(80c6f330b15750449bb4163c95d0163b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Pressed_06.png using Guid(80c6f330b15750449bb4163c95d0163b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e61d8814a6051f6cc57a46206d8307d') in 0.037797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Data/CameraFollow.cs
+  artifactKey: Guid(0ced4d4cec63add40b6c0943b901d534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/CameraFollow.cs using Guid(0ced4d4cec63add40b6c0943b901d534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53caecd6cfd3abaf6f6fa3328a1cd77c') in 0.018131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.aseprite
+  artifactKey: Guid(ffda8997d9de83041a9be6f917c1578d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.aseprite using Guid(ffda8997d9de83041a9be6f917c1578d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf09c3024dbce24fb70505baf1d28f66') in 0.015543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_03.png
+  artifactKey: Guid(0c160e197a92e5747ae9ac7343001289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_03.png using Guid(0c160e197a92e5747ae9ac7343001289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21024d87e7baba140047d70c97a4c2dd') in 0.034709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_06.png
+  artifactKey: Guid(505b7eae45a109a418f6bf00dd261bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tiny Swords/Tiny Swords (Update 010)/UI/Icons/Disable_06.png using Guid(505b7eae45a109a418f6bf00dd261bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acbaeb5a66443ce086be047ce417da2e') in 0.037339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_0.asset
+  artifactKey: Guid(cc3f5cca3173b1148877b75008f1a156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Data/_Worlds/TileMaps/AssetTilemaps/Tilemap_Elevation_0.asset using Guid(cc3f5cca3173b1148877b75008f1a156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9d56c0c688950ecbfea279cf1ecbfff') in 0.016925 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
